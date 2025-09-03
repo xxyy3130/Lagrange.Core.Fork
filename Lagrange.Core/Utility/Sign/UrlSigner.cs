@@ -10,7 +10,7 @@ internal class UrlSigner : SignProvider
 {
     private readonly string? _signServer;
 
-    private readonly HttpClient _client = new();
+    private readonly HttpClient _client = new() { Timeout = TimeSpan.FromSeconds(60) };
 
     public UrlSigner(string? url)
     {
