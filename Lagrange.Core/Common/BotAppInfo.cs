@@ -42,7 +42,7 @@ public class BotAppInfo
         Os = "Linux",
         Kernel = "Linux",
         VendorOs = "linux",
-        CurrentVersion = "3.2.15-39038",
+        CurrentVersion = "3.2.19-39038",
         MiscBitmap = 32764,
         PtVersion = "2.0.0",
         SsoVersion = 19,
